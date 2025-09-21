@@ -336,9 +336,7 @@ where customers_id in (
      from orders
      group by customers_id 
      having count(distinct restaurants_id)<2
-     );
-
-select*from customers;
+    );
 
          
   
